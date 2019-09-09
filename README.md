@@ -8,10 +8,12 @@ Proyecto final - Ironhack Data Analytics Bootcamp.
 
 #### El proyecto se estructura en cuatro fases:
 
-#### - 1.Obtención de la base de datos:
+####  1. Obtención de la base de datos (videoToImages.py):
 
-Las imagenes empleadas en el proyecto fueron obtenidas al dividir videos realizados con la cámara web en imágenes. De una grabación aproximada de 35 segundos se optenian unas 2500 images. El procedimiento se realizo por cada letra (R,O,S,T,Y) y la palabra amigo. Todo este se encuetra en el archivo ### videoToImages.py.
+Las imágenes empleadas en el proyecto fueron obtenidas al dividir videos realizados con la cámara web en imágenes. De una grabación aproximada de 35 segundos se optenian alrededor de 3000 imágenes. Al principio el procedimiento se realizo con todas las letras. Pero debido a limitaciones computacionales, se busco un punto optimo entra la cantidad de las letras y la funcionalidad de la demo. Por eso el proyecto cuenta por ahora con 5 letras (R,O,S,T,Y) y la palabra amigo.
 
-Al principio se prepararon todas las letras para el modelo, pero debido a limitaciones computacionales y para tener una demo funcional se recortaron a 5 y una palabra.
+####  2. Convertir todas las imágenes a NumPy array y guardarlas como pickle (imagesToPickle.py):
+
+
 
 
