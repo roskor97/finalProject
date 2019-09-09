@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 model = load_model('/Users/roskor/Downloads/final.h5')
 
-class_names = {0:"O",1:"S",2:"T",3:"Y",4:"por aqui",5:"AMIGO"}
+class_names = {0:"O",1:"S",2:"T",3:"Y",4:"R",5:"AMIGO"}
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 
