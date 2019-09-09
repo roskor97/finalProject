@@ -2,7 +2,7 @@
 
 Proyecto final - Ironhack Data Analytics Bootcamp.
 
-#### SLR es un interpretador del lenguaje de signos a traves de la cámara web
+#### SLR es un interpretador del lenguaje de signos a través de la cámara web
 
 ## PROCESO:
 
@@ -24,9 +24,9 @@ La red neuronal elegida es la siguiente:
 
 ####  4. Realización del programa (my_main.py): 
 
-Se crea un archivo my_main.py, el cual al ejecutarse activa la cámara web y se conecta con el modelo creado, reconociendo rn tiempo real los signos captados.
+Se crea un archivo my_main.py, el cual al ejecutarse activa la cámara web y se conecta con el modelo creado, reconociendo en tiempo real los signos captados.
 
-## Librerias usadas:
+## Librerías usadas:
 
 - OpenCV
 - NumPy
