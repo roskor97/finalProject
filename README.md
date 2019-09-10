@@ -10,11 +10,11 @@ Proyecto final - Ironhack Data Analytics Bootcamp.
 
 ####  1. Obtención de la base de datos (videoToImages.py):
 
-Las imágenes empleadas en el proyecto fueron obtenidas al dividir videos realizados con la cámara web en imágenes. De una grabación aproximada de 35 segundos se optenían alrededor de 3000 imágenes. Al principio el procedimiento se realizo con todas las letras. Pero debido a limitaciones computacionales, se busco un punto optimo entra la cantidad de las letras y la funcionalidad de la demo. Por eso el proyecto cuenta por ahora con 5 letras (R,O,S,T,Y) y la palabra amigo.
+Las imágenes empleadas en el proyecto fueron obtenidas al dividir vídeos realizados con la cámara web en imágenes. De una grabación aproximada de 35 segundos se obtenían alrededor de 3000 imágenes. En un primer momento, el procedimiento se realizó con todas las letras, pero debido a limitaciones computacionales, se buscó un punto óptimo entra la cantidad de las letras y la funcionalidad de la demo. Por este motivo, el proyecto cuenta por ahora con 5 letras (R,O,S,T,Y) y la palabra amigo.
 
 ####  2. Convertir todas las imágenes a NumPy array y guardarlas como pickle (imagesToPickle.py):
 
-Al contar ya con suficientes imágenes el siguiente paso es redimensionarlas 500x350x1 y convertirlas en numpy array. Despues se obtiene la etiqueta de cada imagen y se guardan las imagenes como final_x.pickle, las equiqueras se guardan como final_y.pickle
+Al contar ya con suficientes imágenes el siguiente paso es redimensionarlas 500x350x1 y convertirlas en numpy array. Después se obtiene la etiqueta de cada imagen y se guardan las imágenes como final_x.pickle, las etiquetas se guardan como final_y.pickle
 
 ####  3. Creación del modelo de red neuronal (machineLearningModel.ipynb):
 
