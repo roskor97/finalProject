@@ -26,7 +26,7 @@ La red neuronal elegida es la siguiente:
 
 Se crea un archivo my_main.py, el cual al ejecutarse activa la cámara web y se conecta con el modelo creado, reconociendo en tiempo real los signos captados.
 
-<img width="350" alt="Captura de pantalla 2019-09-10 a las 8 50 06" src="https://user-images.githubusercontent.com/51289289/64590751-8de3e500-d3a8-11e9-8141-f75d03da482b.png">
+<center><img width="350" alt="Captura de pantalla 2019-09-10 a las 8 50 06" src="https://user-images.githubusercontent.com/51289289/64590751-8de3e500-d3a8-11e9-8141-f75d03da482b.png"></center>
 
 ## Librerías usadas:
 
