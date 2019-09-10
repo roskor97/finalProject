@@ -22,6 +22,8 @@ Una vez creada la base de datos, se entrena una red neuronal convolucional para 
 
 La red neuronal elegida es la siguiente:
 
+<img width="575" alt="modelSummary" src="https://user-images.githubusercontent.com/51289289/64591402-fbdcdc00-d3a9-11e9-82e9-52f1d78bf1aa.png">
+
 ####  4. Realización del programa (my_main.py): 
 
 Se crea un archivo my_main.py, el cual al ejecutarse activa la cámara web y se conecta con el modelo creado, reconociendo en tiempo real los signos captados.
